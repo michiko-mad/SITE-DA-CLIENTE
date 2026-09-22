@@ -1,0 +1,23 @@
+.navegacao
+{
+    background-color: #865b44;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-item
+{
+    color: #fff;
+    
+    font-size: 17px;
+    border: none;
+    background: none;
+    padding: 15px 20px;
+}
+.nav-item:hover
+{
+    background-color: #a87d66;
+    color: #ffffff;
+    border-radius: 6px;
+}
