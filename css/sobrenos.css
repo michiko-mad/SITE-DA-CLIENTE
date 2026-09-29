@@ -1,0 +1,33 @@
+.fundo
+{
+     background-color: rgb(192, 133, 91);
+     height: 500px;
+     display: flex;
+     justify-content: right;
+     box-sizing: border-box;
+     
+}
+.fundo2
+{
+    background-color: rgb(247, 216, 183);
+    height: 500px;
+    width: 50%;
+}
+.text
+{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+ 
+ 
+  
+}
+.nos
+{
+ margin-top: 20px;
+
+ 
+}
