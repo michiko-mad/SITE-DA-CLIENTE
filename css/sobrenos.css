@@ -3,31 +3,55 @@
      background-color: rgb(192, 133, 91);
      height: 500px;
      display: flex;
+    box-sizing: border-box;
      justify-content: right;
-     box-sizing: border-box;
-     
 }
 .fundo2
 {
     background-color: rgb(247, 216, 183);
     height: 500px;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text
 {
-    display: flex;
-    justify-content: center;
-  align-items: center;
-  text-align: center;
+  display: flex;
   flex-direction: column;
-
- 
- 
-  
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  text-align: left;
 }
-.nos
-{
- margin-top: 20px;
+.nos{
+  font-size: 40px;
+}
 
- 
+H3, p{
+  margin-top: 20PX;
+}
+
+
+
+.fundo3
+{
+  font-size: 25px;
+height: 500PX;
+  background-color: rgb(98, 54, 38);
+  color: #c07451;
+  display: flex;
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.nt
+{ 
+  color: bisque;
+  font-size: 20px ;
+}
+hr
+{
+  width: 190px;
+  margin: auto;
 }
