@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/sobrenos.css">
     <link rel="stylesheet" href="css/estudio.css">
+    <link rel="stylesheet" href="css/carrossel.css">
     
 <body>
     <nav class="navegacao">
@@ -53,31 +54,28 @@
             <p>Transforme sua rotina com praticidade das tranças afro, <br>sem abrir mão da proteção e do crescimento saudável dos seus fios. <br>
             Sua história, sua identidade e sua beleza traduzida em tranças.</p>
         </div>
-        <div class="carrossel">
-          
+
+    <div class="carrossel"> 
+         <button class="prev" onclick="mover(-1)">&#10094;</button>
+
+        <div class="slides">
+            <img src="imagens/Multimedia (1).jfif" alt="Trança 1">
+            <img src="imagens/Multimedia (2).jfif" alt="Trança 2">
+            <img src="imagens/Multimedia (3).jfif" alt="Trança 3">
+            <img src="imagens/Multimedia.jfif" alt="Trança 3">
         </div>
-     </section>
 
+        <button class="next" onclick="mover(1)">&#10095;</button>
+    </div> 
+        
+     
+    </section>
 
-
-
-
-
-        <div class="carrossel">
-            <div class="slides">
-                <img src="foto1.jpg" alt="Trança 1">
-                <img src="foto2.jpg" alt="Trança 2">
-                <img src="foto3.jpg" alt="Trança 3">
-            </div>
-                    <button class="prev" onclick="mover(-1)">&#10094;</button>
-                <button class="next" onclick="mover(1)">&#10095;</button>
-            </div>
-            <button class="prev" onclick="mover(-1)"></button>
-        </div>
-   
-
+s
+     
 
 
     <script src="javascript/estudiotravagli.js"></script>
+    <script src="javascript/carrossel.js"></script>
 </body>
 </html>

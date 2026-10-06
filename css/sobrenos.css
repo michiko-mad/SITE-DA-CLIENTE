@@ -1,7 +1,7 @@
 .fundo
 {
      background-color: rgb(192, 133, 91);
-     height: 500px;
+     height: 600px;
      display: flex;
     box-sizing: border-box;
      justify-content: right;
@@ -9,7 +9,7 @@
 .fundo2
 {
     background-color: rgb(247, 216, 183);
-    height: 500px;
+    height: 600px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ H3, p{
 .fundo3
 {
   font-size: 25px;
-height: 500PX;
+height: 600PX;
   background-color: rgb(98, 54, 38);
   color: #c07451;
   display: flex;
