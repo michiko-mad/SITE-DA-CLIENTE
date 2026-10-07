@@ -2,7 +2,7 @@
     margin: 0;
   position: relative;
   width: 40%;
-  max-width: 600px;
+  max-width: 700px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -10,14 +10,16 @@
   display: flex;
   transition: 0.8s ease ;
   align-items: center;
+ 
 }
 .slides img {
-  min-width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: 400px;
   object-fit: cover;
   border-radius: 15px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
 }
 .prev, .next {
   position: absolute;
@@ -28,9 +30,13 @@
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+  
 }
-.prev { left: 10px; }
-.next { right: 10px; }
+.prev { left: 20px; }
+.next { right: 50px; }
+
+
+
 
 /* 
 .carrossel {
