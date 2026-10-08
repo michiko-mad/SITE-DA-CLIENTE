@@ -6,9 +6,15 @@
 
 .carrosselDoido{
   width: 500px;
+  height: auto;
  
 }
 
+
+
+
+
+/* 
 .slides { 
   display: flex;
   transition: 0.3s ease ;
@@ -33,7 +39,7 @@
 
 #proximo {
     right: 20px;
-}
+} */
 
 
 

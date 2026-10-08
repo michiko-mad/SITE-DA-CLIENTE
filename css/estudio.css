@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
+    text-align: right;
     box-sizing: border-box;
    
 }
@@ -16,9 +16,9 @@
     margin: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
     justify-content: center;
-   align-items: center;
+   align-items: flex-end;
    gap: 20px;
     
 }
