@@ -99,3 +99,75 @@
   object-fit: cover;
 }
   */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.conteudo{
+    flex:1;
+    min-width:300px;
+}
+
+.carousel{
+    position:relative;
+    width:450px;
+    max-width:100%;
+    height:550px;
+    overflow:hidden;
+    border-radius:15px;
+}
+
+.slides{
+    display:flex;
+    width:100%;
+    height:100%;
+    transition:transform 0.5s ease;
+}
+
+.slides img{
+    min-width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* Botões */
+
+.prev,
+.next{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    background:rgba(0,0,0,0.5);
+    color:white;
+    border:none;
+    padding:12px;
+    cursor:pointer;
+    font-size:20px;
+    border-radius:50%;
+}
+
+.prev{
+    left:10px;
+}
+
+.next{
+    right:10px;
+}
+
+.prev:hover,
+.next:hover{
+    background:rgba(0,0,0,0.8);
+}

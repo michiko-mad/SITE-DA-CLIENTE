@@ -1,3 +1,4 @@
+/*
 //Captura o botão "próximo"
 let btnProximo = document.getElementById("proximo");
 //Captura o botão "anterior"
@@ -65,4 +66,42 @@ function mostrarAnterior() {
 // }
 // automático a cada 4 segundos
 /*setInterval(() => mover(1), 4000);*/
+
+
+const slides = document.querySelector(".slides");
+const images = document.querySelectorAll(".slides img");
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
+
+let index = 0;
+
+function mostrarSlide() {
+    slides.style.transform = `translateX(-${index * 100}%)`;
+}
+
+function proximoSlide() {
+    index++;
+
+    if(index >= images.length){
+        index = 0;
+    }
+
+    mostrarSlide();
+}
+
+function slideAnterior() {
+    index--;
+
+    if(index < 0){
+        index = images.length - 1;
+    }
+
+    mostrarSlide();
+}
+
+next.addEventListener("click", proximoSlide);
+prev.addEventListener("click", slideAnterior);
+
+/* Autoplay */
+setInterval(proximoSlide, 3000);
  
