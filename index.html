@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="css/carrossel.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+<link rel="stylesheet" href="css/agendamento.css">
 
     
 <body>
     <nav class="navegacao">
         <a href="#SOBRE" class="nav-item">SOBRE NÓS</a>
         <a href="#ESTUDIO" class="nav-item">ESTUDIO</a>
-        <a href="#AGENDAMETOS" class="nav-item">AGENDAMENTOS</a>
+        <a href="#AGENDAMENTOS" class="nav-item">AGENDAMENTOS</a>
         <a href="#CONTATO" class="nav-item">CONTATO</a>
     </nav>
     <section class="SOBRE">
@@ -81,11 +81,9 @@
     </div>
     </section>
      </section>
-<section id="AGENDAMETOS" class="agendamento">
-
-  <div class="booking-card" id="agendar">
-      <h2>Agendar Atendimento</h2>
-      <p>Selecione as opções abaixo para consultar valores e a disponibilidade do estúdio.</p>
+  <div class="booking-card" id="AGENDAMENTOS">
+      <h2 class="agendar">AGENDAR ATENDIMENTO</h2>
+      <p class="Selecione">Selecione as opções abaixo para consultar  valores e a disponibilidade do estúdio.</p>
  
       <form id="bookingForm">
         <!-- Serviço -->
@@ -115,6 +113,7 @@
             <button type="button" class="time-btn" onclick="selectTime(this, '09:00')">09:00</button>
             <button type="button" class="time-btn" onclick="selectTime(this, '13:00')">13:00</button>
             <button type="button" class="time-btn" onclick="selectTime(this, '16:00')">16:00</button>
+             <button type="button" class="time-btn" onclick="selectTime(this, '16:00')">--:--</button>
           </div>
         </div>
  
@@ -133,7 +132,7 @@
         <button type="button" class="btn-submit" onclick="sendWhatsApp()">Confirmar e Enviar para WhatsApp</button>
       </form>
   </div>
-</section>
+
 
     <script src="javascript/estudiotravagli.js"></script>
     <script src="javascript/carrossel.js"></script>

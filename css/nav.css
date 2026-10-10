@@ -9,11 +9,13 @@
     top: 0;
     z-index: 10;
     
+    
 
 }
 .nav-item
 {
     color: #fff;
+    text-decoration: none;
     
     font-size: 17px;
     border: none;
