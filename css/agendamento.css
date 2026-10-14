@@ -35,11 +35,62 @@
     margin-bottom: 30px;
     background-color: #fff;
     align-items: center;
-    width: 400px;
+    width: 460px;
     height: 400px;
     margin: auto;
+  
     border-radius: 10px;
-    box-shadow:10px 15px #000000  ;
+    box-shadow: -1px 5px 20px 4px rgba(0, 0, 0, 0.55);
     padding: 15px;
 
+}
+.service
+{
+    margin-top: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.date
+{
+    font-size: 19px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.horario
+{
+     margin-top: 12px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.name
+{
+    margin-top: 20px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.phoneInput{
+    margin-top: 20px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.btn-submit
+{
+   display: flex;  
+    margin-top: 20px;
+    background-color: rgba(160, 149, 142, 0.747);
+    border: none;
+    padding: 10px;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.input{
+    width: 100px;
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1000px!important;
+    }
 }

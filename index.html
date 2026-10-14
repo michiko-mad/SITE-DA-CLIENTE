@@ -27,7 +27,7 @@
             <div class="cliente">
                 <p>NICOLLY TRAVAGLI</p>
                 <h1>ESTUDIO TRAVAGLI</h1>
-            <div class="btn">
+            <div id="CONTATO" class="btn1">
                 agendar agora
            </div>
             </div>
@@ -36,12 +36,13 @@
     <section id="SOBRE" class="SOBRENOS">
         <div class="fundo">
             <div class="fundo2">
+              <img src="imagens/Captura de tela_13-10-2026_213227_www.bing.com.jpeg.crdownload" alt=""></div>
                 <div class="text">
                     <h1 class="nos">SOBRE NÓS</h1>
                     <H3>BELEZA PARA TODOS</H3>
                     <P>O ESTUDIO TRAVAGLI  nasceu do amor pela cultura afro <br> e pela arte de trançar. <BR> Mais que um salão, somos um espaço de acolhimento.</P>
                 </div>
-            </div>
+            
         </div>
     </section>
     <section class="fundo3">
@@ -88,7 +89,7 @@
       <form id="bookingForm">
         <!-- Serviço -->
         <div class="form-group">
-          <label for="service">Serviço Desejado</label>
+          <label  class="service">Serviço Desejado</label>
           <select id="service" required>
             <option value="" disabled selected>Selecione um modelo...</option>
             <option value="Box Braids">Box Braids</option>
@@ -101,35 +102,35 @@
         </div>
  
         <!-- Data -->
-        <div class="form-group">
-          <label for="date">Data do Atendimento</label>
+        <!-- <div class="form-group">
+          <label class="date">Data do Atendimento</label>
           <input type="date" id="date" required>
-        </div>
+        </div> -->
  
         <!-- Horários -->
-        <div class="form-group">
-          <label>Horários Disponíveis</label>
+        <!-- <div class="form-group">
+          <label class="horario">Horários Disponíveis</label>
           <div class="time-options">
             <button type="button" class="time-btn" onclick="selectTime(this, '09:00')">09:00</button>
             <button type="button" class="time-btn" onclick="selectTime(this, '13:00')">13:00</button>
             <button type="button" class="time-btn" onclick="selectTime(this, '16:00')">16:00</button>
              <button type="button" class="time-btn" onclick="selectTime(this, '16:00')">--:--</button>
           </div>
-        </div>
+        </div> -->
  
         <!-- Dados do Cliente -->
         <div class="form-group">
-          <label for="name">Nome Completo</label>
-          <input type="text" id="name" placeholder="Digite seu nome" required>
+          <label class="name">Nome Completo</label>
+          <input type="text" class="completo" id="name" placeholder="Digite seu nome" required>
         </div>
  
         <div class="form-group">
-          <label for="phoneInput">WhatsApp para Confirmação</label>
-          <input type="tel" id="phoneInput" placeholder="(00) 00000-0000" required>
+          <label class="phoneInput">WhatsApp para Confirmação</label>
+          <input type="tel" class="phone" id="phoneInput" placeholder="(00) 00000-0000" required>
         </div>
  
         <!-- Botão Final -->
-        <button type="button" class="btn-submit" onclick="sendWhatsApp()">Confirmar e Enviar para WhatsApp</button>
+        <button type="button" class="btn-submit" onclick="alert('Agendamento realizado com sucesso')">Confirmar e Enviar para WhatsApp</button>
       </form>
   </div>
 

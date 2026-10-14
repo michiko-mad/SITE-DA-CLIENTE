@@ -12,8 +12,9 @@
     height: 600px;
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
+    justify-content: left;
+  
 }
 .text
 {
