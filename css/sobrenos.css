@@ -1,20 +1,41 @@
 .fundo
 {
      background-color: rgb(192, 133, 91);
-     height: 600px;
+     height: 700px;
      display: flex;
     box-sizing: border-box;
-     justify-content: right;
+     justify-content: center;
 }
 .fundo2
 {
-    background-color: rgb(247, 216, 183);
-    height: 600px;
+    
+    height: 700px;
     width: 50%;
     display: flex;
     box-sizing: border-box;
-    justify-content: left;
-  
+    justify-content: center;
+    align-items: flex-end;
+    
+   
+}
+.img
+{
+  border-radius: 15px;
+  height: 480px;
+  margin: 30px;
+}
+.img:hover
+{
+  transform: scale(1.1);
+}
+.fundotext
+{
+  background-color: rgb(247, 216, 183);
+   width: 50% ;
+   height: 700px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .text
 {
@@ -38,7 +59,7 @@ H3, p{
 .fundo3
 {
   font-size: 25px;
-height: 600PX;
+height: 700PX;
   background-color: rgb(98, 54, 38);
   color: #c07451;
   display: flex;

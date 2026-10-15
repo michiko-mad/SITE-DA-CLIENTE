@@ -85,8 +85,13 @@
     align-items: center;
    
 }
-.input{
-    width: 100px;
+.btn-submit:hover
+{
+    background-color: rgba(105, 99, 96, 0.747);
+    transform: scale(0.9);
+}
+.completo{
+    width: 350px;
 }
 
 @media (min-width: 1400px) {
