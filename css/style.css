@@ -8,3 +8,21 @@ body{
     background: #b35f38;
     scroll-behavior: smooth;
 }
+
+
+@media(max-width: 768px)
+{
+    .navegacao a
+    {
+       display: flex;
+        flex-direction:row;
+        align-items:center;
+        font-size: 13px;
+    }
+    .nav-item
+    {
+         width: 50%;
+        padding: 15px 20px;
+        
+    }
+}

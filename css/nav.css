@@ -15,6 +15,7 @@
 }
 .nav-item
 {
+    flex-wrap: wrap;
     color: #fff;
     text-decoration: none;
     align-items: center;
