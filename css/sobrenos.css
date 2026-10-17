@@ -20,13 +20,9 @@
 }
 .img
 {
-  border-radius: 15px;
+  border-radius: 20px;
   height: 480px;
   margin: 30px;
-}
-.img:hover
-{
-  transform: scale(1.1);
 }
 .fundotext
 {

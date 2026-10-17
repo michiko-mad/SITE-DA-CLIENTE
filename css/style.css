@@ -23,6 +23,25 @@ body{
     {
          width: 50%;
         padding: 15px 20px;
-        
     }
+
+
+    .SOBRE
+    {
+        height: 600px;
+    }
+
+    .fundo
+    {
+        display: flex;
+       flex-direction: row;
+    
+    }
+    .img
+    {
+       
+       width: 100%;
+    }
+
+
 }
