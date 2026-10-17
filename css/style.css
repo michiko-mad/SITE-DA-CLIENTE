@@ -10,6 +10,7 @@ body{
 }
 
 
+
 @media(max-width: 768px)
 {
     .navegacao a
@@ -33,13 +34,18 @@ body{
 
     .fundo
     {
-        display: flex;
+        
        flex-direction: row;
     
     }
+    .fundo2
+    {
+        display: flex;
+        font-size: 50px;
+        width: 100%;
+    }
     .img
     {
-       
        width: 100%;
     }
 
