@@ -22,7 +22,7 @@ body{
     }
     .nav-item
     {
-         width: 50%;
+         width: 100%;
         padding: 15px 20px;
     }
 
@@ -42,11 +42,11 @@ body{
     {
         display: flex;
         font-size: 50px;
-        width: 100%;
     }
-    .img
+    .fundotext
     {
-       width: 100%;
+        flex-direction: column;
+        position: relative;
     }
 
 
