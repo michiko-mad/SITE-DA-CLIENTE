@@ -25,13 +25,6 @@ body{
          width: 100%;
         padding: 15px 20px;
     }
-
-
-    .SOBRE
-    {
-        height: 600px;
-    }
-
     .fundo
     {
         
@@ -41,12 +34,29 @@ body{
     .fundo2
     {
         display: flex;
-        font-size: 50px;
+       
     }
     .fundotext
     {
         flex-direction: column;
         position: relative;
+        padding: 30px;
+    }
+    .fundo3
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .estudio
+    {
+        flex-direction: row;
+    }
+    .espaço
+    {
+        padding: 30px;
+       
     }
 
 

@@ -1,15 +1,13 @@
 .fundo
 {
-     background-color: rgb(192, 133, 91);
-     height: 700px;
+     
      display: flex;
     box-sizing: border-box;
      justify-content: center;
 }
 .fundo2
 {
-    
-    height: 700px;
+    background-color: rgb(192, 133, 91);
     width: 50%;
     display: flex;
     box-sizing: border-box;
@@ -72,4 +70,25 @@ height: 700PX;
 {
   width: 190px;
   margin: auto;
+}
+
+@media (max-width: 700px) {
+.fundo{
+     flex-direction: column;     
+  }
+  .fundo2{
+    width: 100%;
+  }
+  .fundotext{
+    width: 100%;
+  }
+
+  .img{
+    width: 100%;
+  }
+  .cliente{
+    width: 100%;
+    height: 300px;
+  }
+  
 }
