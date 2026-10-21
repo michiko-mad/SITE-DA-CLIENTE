@@ -60,4 +60,11 @@ body{
     }
 
 
+
+    .booking-card
+    {
+        flex-direction: column;
+    }
+
+
 }

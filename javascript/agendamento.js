@@ -20,7 +20,7 @@ let selectedTime = '';
         return;
       }
  
-      const message = `Olá Nicolly! Meu nome é *${name}* (${clientPhone}).%0A%0AGostaria de agendar o seguinte serviço no *ZURI - Estúdio Travagli*:%0A- *Modelo:* ${service}%0A- *Data:* ${date}%0A- *Horário:* ${selectedTime}`;
+      const message = `Olá Nicolly! Meu nome é *${name}* (${clientPhone}).%0A%0AGostaria de agendar o seguinte serviço no *Estúdio Travagli*:%0A- *Modelo:* ${service}%0A- *Data:* ${date}%0A- *Horário:* ${selectedTime}`;
       
       const url = `https://wa.me/${studioPhone}?text=${message}`;
       window.open(url, '_blank');

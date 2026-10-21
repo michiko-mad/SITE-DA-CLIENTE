@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/carrossel.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="imagens/Multimedia (9) copia.jpg" type="image/x-icon">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <link rel="stylesheet" href="css/agendamento.css">
@@ -57,7 +58,9 @@
             <hr class="qb">
         </div>
      </section>
+
      <section id="ESTUDIO" class="estudio" >
+      <div class="containerEspaco">
         <div class="espaço">
             <h1 class="nosso">NOSSOS MATERIAIS</h1>
             <h3>Fazer o bem faz bem</h3>
@@ -67,9 +70,11 @@
             
             <p>Transforme sua rotina com praticidade das tranças afro, <br>sem abrir mão da proteção e do crescimento saudável dos seus fios.</p>
         </div>
+      </div>
+        
 
    <section class="container">
-    <!-- CARROSSEL -->
+
     <div class="carousel">
         <div class="slides">
            <img src="imagens/shared image.jfif" alt="">
@@ -85,13 +90,15 @@
         <button class="next">&#10095;</button>
     </div>
     </section>
-     </section>
+</section> 
+
+
   <div class="booking-card" id="AGENDAMENTOS">
       <h2 class="agendar">AGENDAR ATENDIMENTO</h2>
       <p class="Selecione">Selecione as opções abaixo para consultar  valores e a disponibilidade do estúdio.</p>
  
       <form id="bookingForm">
-        <!-- Serviço -->
+
         <div class="form-group">
           <label  class="service">Serviço Desejado</label>
           <select id="service" class="completo" required>
@@ -105,14 +112,14 @@
           </select>
         </div>
  
-        <!-- Data -->
-        <!-- <div class="form-group">
+
+    <div class="form-group">
           <label class="date">Data do Atendimento</label>
           <input type="date" id="date" required>
-        </div> -->
+        </div> 
  
-        <!-- Horários -->
-        <!-- <div class="form-group">
+
+        <div class="form-group">
           <label class="horario">Horários Disponíveis</label>
           <div class="time-options">
             <button type="button" class="time-btn" onclick="selectTime(this, '09:00')">09:00</button>
@@ -120,9 +127,8 @@
             <button type="button" class="time-btn" onclick="selectTime(this, '16:00')">16:00</button>
              <button type="button" class="time-btn" onclick="selectTime(this, '16:00')">--:--</button>
           </div>
-        </div> -->
+        </div> 
  
-        <!-- Dados do Cliente -->
         <div class="form-group">
           <label class="name">Nome Completo</label>
           <input type="text" class="completo" id="name" placeholder="Digite seu nome" required>
@@ -137,11 +143,11 @@
           <label class="mensagem">Mensagem</label>
           <input type="text" class="mensagem2" id="name" placeholder="Mensagem...">
         </div>
- 
-        <!-- Botão Final -->
+
         <button type="button" class="btn-submit" onclick="alert('Agendamento realizado com sucesso')">Confirmar e Enviar para WhatsApp</button>
       </form>
   </div>
+  
     <section id="CONTATO" class="contato">
        <div class="ct4">
       <img class="imgct" src="imagens/shared image (3).jfif" alt="">

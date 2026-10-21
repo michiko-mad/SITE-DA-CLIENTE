@@ -5,7 +5,6 @@
     padding: 0;
 }
 .contato{
-    height: 700px;
     background-color: rgb(247, 216, 183);
     display: flex;
     box-sizing: border-box;
@@ -34,4 +33,14 @@
   width: 400px;
   border-radius: 10px;
       
+}
+
+@media (max-width: 700px) {
+    .ct4, .ct2 {
+        width: 100%;
+    }
+    .contato{
+        flex-direction: column;
+    }
+     
 }

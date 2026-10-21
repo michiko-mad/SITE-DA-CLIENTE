@@ -1,27 +1,22 @@
 .estudio
 {
     background-color: rgb(247, 216, 183);
-    height: 700px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: right;
     box-sizing: border-box;
-   
 }
 .espaço
 {
-     background-color: rgb(247, 216, 183);
-    width: 50%;
-    margin-left: 150px;
+    background-color: rgb(247, 216, 183);
+}
+
+.containerEspaco{
     display: flex;
-    flex-direction: column;
-    text-align: right;
+    text-align: justify;
+    align-items: center;
     justify-content: center;
-   align-items: flex-end;
-   gap: 20px;
-    
 }
 .nosso
 {
@@ -33,4 +28,10 @@ p{
 }
 .es{
     width: 420px;
+}
+
+@media (max-width: 1055px) {
+    .estudio{
+        flex-direction: column;
+    }
 }
