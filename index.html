@@ -97,6 +97,7 @@
       <h2 class="agendar">AGENDAR ATENDIMENTO</h2>
       <p class="Selecione">Selecione as opções abaixo para consultar  valores e a disponibilidade do estúdio.</p>
  
+      <div class="form111">
       <form id="bookingForm">
 
         <div class="form-group">
@@ -112,22 +113,6 @@
           </select>
         </div>
  
-
-    <div class="form-group">
-          <label class="date">Data do Atendimento</label>
-          <input type="date" id="date" required>
-        </div> 
- 
-
-        <div class="form-group">
-          <label class="horario">Horários Disponíveis</label>
-          <div class="time-options">
-            <button type="button" class="time-btn" onclick="selectTime(this, '09:00')">09:00</button>
-            <button type="button" class="time-btn" onclick="selectTime(this, '13:00')">13:00</button>
-            <button type="button" class="time-btn" onclick="selectTime(this, '16:00')">16:00</button>
-             <button type="button" class="time-btn" onclick="selectTime(this, '16:00')">--:--</button>
-          </div>
-        </div> 
  
         <div class="form-group">
           <label class="name">Nome Completo</label>
@@ -146,6 +131,8 @@
 
         <button type="button" class="btn-submit" onclick="alert('Agendamento realizado com sucesso')">Confirmar e Enviar para WhatsApp</button>
       </form>
+    </div>
+      <br>
   </div>
   
     <section id="CONTATO" class="contato">

@@ -31,11 +31,28 @@
 
 .booking-card
 {
-    
-}
 
+}
+.form111
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 #bookingForm{
     display: flex;
+    background-color: #e8e5e1;
+    border-radius: 15px;
+    width: 530px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     box-shadow: -1px 5px 20px 4px rgba(71, 71, 71, 0.55);
+     padding: 15px;
+   
+
+
+    /* display: flex;
     margin-bottom: 30px;
     background-color: #fff;
     align-items: center;
@@ -45,50 +62,71 @@
     justify-content: center;
     border-radius: 10px;
     box-shadow: -1px 5px 20px 4px rgba(0, 0, 0, 0.55);
-    padding: 15px;
+    padding: 15px; */
 
+}
+.form-group
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 .service
 {
     margin-top: 12px;
   font-size: 20px;
-  font-weight: bold;
+ 
 }
 .date
 {
     font-size: 19px;
-  font-weight: bold;
   margin-top: 12px;
 }
 .horario
 {
      margin-top: 12px;
   font-size: 19px;
-  font-weight: bold;
 }
 .name
 {
     margin-top: 20px;
   font-size: 19px;
-  font-weight: bold;
+
 }
 .phoneInput{
     margin-top: 20px;
   font-size: 19px;
-  font-weight: bold;
+  
 }
 .mensagem{
       margin-top: 20px;
   font-size: 19px;
-  font-weight: bold;
+ 
+  
 }
 .mensagem2
 {
-    max-width: 350px;
-    height: 50px;
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+   
 }
 .btn-submit
 {
+    display: flex;
+    margin-top: 22px;
+    background-color: rgba(160, 149, 142, 0.747);
+    color: black;
+    border: none;
+    border-radius: 10px ;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+/*     
    display: flex;  
     margin-top: 20px;
     background-color: rgba(160, 149, 142, 0.747);
@@ -96,7 +134,7 @@
     padding: 10px;
     border-radius: 9px;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
    
 }
 .btn-submit:hover
@@ -105,7 +143,11 @@
     transform: scale(0.9);
 }
 .completo{
-   max-width: 350px;
+   width: 300px;
+   background-color: #fff;
+   color: #fff;
+   border: 5px;
+   border: none;
 }
 
 @media (min-width: 1400px) {
